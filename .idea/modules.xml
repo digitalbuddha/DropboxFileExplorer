@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DropboxExplorer.iml" filepath="$PROJECT_DIR$/.idea/modules/DropboxExplorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DropboxExplorer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DropboxExplorer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cache/DropboxExplorer.cache.iml" filepath="$PROJECT_DIR$/.idea/modules/cache/DropboxExplorer.cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/DropboxExplorer.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/DropboxExplorer.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/DropboxExplorer.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/DropboxExplorer.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/DropboxExplorer.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/DropboxExplorer.presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote/DropboxExplorer.remote.iml" filepath="$PROJECT_DIR$/.idea/modules/remote/DropboxExplorer.remote.iml" />
+    </modules>
+  </component>
+</project>
