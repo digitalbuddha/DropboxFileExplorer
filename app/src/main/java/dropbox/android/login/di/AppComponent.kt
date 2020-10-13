@@ -7,6 +7,7 @@ import dropbox.android.login.data.LocalModule
 import dropbox.android.login.data.DataModule
 import dropbox.android.login.ui.LoginActivity
 import dropbox.android.login.data.RemoteModule
+import dropbox.android.login.ui.PresentationModule
 import javax.inject.Singleton
 
 @Singleton
@@ -14,7 +15,8 @@ import javax.inject.Singleton
     AppModule::class,
     DataModule::class,
     RemoteModule::class,
-    LocalModule::class])
+    LocalModule::class,
+    PresentationModule::class])
 interface LoginComponent {
 
     @Component.Builder

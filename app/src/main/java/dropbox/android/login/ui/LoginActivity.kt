@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import dagger.android.AndroidInjection
+import dropbox.android.login.App
 import dropbox.android.login.R
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
@@ -15,8 +15,8 @@ class LoginActivity: AppCompatActivity(), LoginView {
     lateinit var presenter: LoginPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        AndroidInjection.inject(this)
         super.onCreate(savedInstanceState)
+        (application as App).component.inject(this)
         setContentView(R.layout.activity_main)
         loginButton.setOnClickListener {
             presenter.attemptLogin()

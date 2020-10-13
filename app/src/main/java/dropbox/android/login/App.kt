@@ -2,7 +2,7 @@ package dropbox.android.login
 
 import android.app.Application
 import dropbox.android.login.di.LoginComponent
-import dropbox.android.login.di.DaggerAppComponent
+import dropbox.android.login.di.DaggerLoginComponent
 
 class App: Application() {
 
@@ -10,7 +10,6 @@ class App: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        component = DaggerAppComponent.builder().application(this).build()
-        component.inject(this)
+        component = DaggerLoginComponent.builder().application(this).build()
     }
 }

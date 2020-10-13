@@ -23,14 +23,11 @@ android {
 
 dependencies {
 
-    implementation project(':domain')
     implementation project(':data')
-    implementation project(':presentation')
-    implementation project(':cache')
-    implementation project(':remote')
 
     def daggerVersion = '2.24'
     def kotlinCoroutineVersion = '1.0.1'
+    implementation 'com.github.pengrad:jdk9-deps:1.0'
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
@@ -42,8 +39,6 @@ dependencies {
     implementation "com.google.dagger:dagger:$daggerVersion"
     annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
-    implementation "com.google.dagger:dagger-android-support:$daggerVersion"
-    kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
 
     implementation 'com.squareup.picasso:picasso:2.71828'
     

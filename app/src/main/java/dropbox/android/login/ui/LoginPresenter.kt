@@ -1,6 +1,5 @@
 package dropbox.android.login.ui
 
-import dropbox.android.presentation.model.LoginModel
 import kotlinx.coroutines.launch
 import java.lang.Exception
 
